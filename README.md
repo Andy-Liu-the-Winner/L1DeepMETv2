@@ -48,7 +48,7 @@ Training script [`train.py`](https://github.com/DeepMETv2/L1DeepMETv2/blob/maste
 ```
 python train.py --data data_ttbar --ckpts ckpts_ttbar
 ```
-You need to create a dir for the name you prefer for ckpts_ttbar; Within this directory, you should also create a directory named "MODELS."
+You need to create a directory for the name you prefer for ckpts_ttbar; Within this directory, you should also create a directory named "MODELS."
 
 If you have done the step 2, the training script will directly fetch the input dataloader from `./data_ttbar/processed/` and save the training & evaluation output to `./ckpts_ttbar`.
 
